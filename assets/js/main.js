@@ -121,7 +121,7 @@ document.getElementById('whatsapp-button').addEventListener('click', function (e
     return;
   }
 
-  const message = `Halo, saya ${name}%0AEmail: ${email}%0APerusahaan: ${company}%0ASaya tertarik untuk bergabung dengan perusahaan Anda.`;
+  const message = `Halo, saya ${name}%0AEmail: ${email}%0APerusahaan: ${company}%0ASaya ingin merekrut anda untuk bergabung ke Perusahaan saya. Terimakasih.`;
   const phoneNumber = '6289698058946'; // Ganti dengan nomor WhatsApp kamu
 
   const url = `https://wa.me/${phoneNumber}?text=${message}`;
